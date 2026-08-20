@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_sp_sao_paulo_dados_imovel-mcp",
+  "title": "Prefeitura SP São Paulo: Certidão de Dados Cadastrais do Imóvel",
+  "description": "Prefeitura SP São Paulo: Certificate de Dados Cadastrais do Imóvel, official-source lookup. Platform",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_sp_sao_paulo_dados_imovel-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_sp_sao_paulo_dados_imovel"
+    }
+  ]
+}
